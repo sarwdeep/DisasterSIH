@@ -43,6 +43,13 @@ export default function Navbar() {
           >
             About
           </Link>
+          <Link
+            to="/premium"
+            className="hover:text-var-cream transition"
+            style={{ color: "white" }}
+          >
+            Premium
+          </Link>
         </div>
       </div>
     </nav>

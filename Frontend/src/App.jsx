@@ -5,6 +5,7 @@ import Landing from "./pages/Landing";
 import TouristDashboard from "./pages/TouristDashboard";
 import AuthorityDashboard from "./pages/AuthorityDashboard";
 import About from "./pages/About";
+import Premium from "./pages/Premium"; // import Premium page
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path="/tourist" element={<TouristDashboard />} />
             <Route path="/authority" element={<AuthorityDashboard />} />
             <Route path="/about" element={<About />} />
+            <Route path="/premium" element={<Premium />} /> {/* add Premium route */}
           </Routes>
         </main>
         <Footer />

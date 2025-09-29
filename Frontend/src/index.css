@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+/* styles/globals.css or index.css */
+:root {
+  --brand-orange: #FF6B35;
+  --brand-peach: #F7C59F;
+  --brand-cream: #EFEFD0;
+  --brand-navy: #004E89;
+  --brand-blue: #1A659E;
+}
